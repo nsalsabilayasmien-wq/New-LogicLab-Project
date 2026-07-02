@@ -3,7 +3,7 @@
 def materi_level_1():
     print("""
 ===================================================================
-📖 MATERI LEVEL 1: PETA HARTA KARUN (Algoritma, Flowchart, If-Else, List)
+📖 LOGICLAB LEVEL 1: PETA HARTA KARUN (Algoritma, Flowchart, If-Else, List)
 ===================================================================
 1. Algoritma & Flowchart: 
    Bayangkan kamu mau bikin susu cokelat. Langkahnya: ambil gelas -> 
@@ -21,19 +21,16 @@ def materi_level_1():
 """)
 
 def simulator_level_1():
-    print("\n🎮 SIMULATOR LEVEL 1: ROBOT PENJAGA GERBANG")
+    print("\n🎮 LOGICLAB SIMULATOR 1: ROBOT PENJAGA GERBANG")
     print("Mari masukkan mainan ke dalam kotak (Array/List) untuk robot!")
     
-    # Inisialisasi List/Array
     kotak_mainan = ["robot", "mobil", "lego"]
     print(f"Isi kotak saat ini: {kotak_mainan}")
     
-    # Input dari user
     mainan_baru = input("Masukkan nama mainan baru untuk robot: ").strip().lower()
     kotak_mainan.append(mainan_baru)
     print(f"Isi kotak sekarang: {kotak_mainan}")
     
-    # Logika If-Else
     print("\n--- Robot memeriksa isi kotak ---")
     if "monster" in kotak_mainan:
         print("🤖 Robot: 'BAHAYA! Ada monster di dalam kotak! Akses Ditolak!'")
