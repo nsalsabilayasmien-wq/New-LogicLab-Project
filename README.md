@@ -1,14 +1,13 @@
-# 🚀 Python Coding Program - Semester 1 (ELIF5 Style)
+# 🔬 LogicLab - Python Learning Platform
 
-Aplikasi CLI interaktif modular yang dirancang khusus untuk mahasiswa semester 1 yang baru mengenal dunia pemrograman, dikemas dengan penjelasan analogi anak usia 5 tahun (*Explain Like I'm 5*).
+Aplikasi CLI interaktif modular berbasis tingkatan (level) yang dirancang khusus untuk mahasiswa semester 1 agar memahami logika dasar pemrograman menggunakan analogi sederhana (ELIF5).
 
-## 🛠️ Fitur & Struktur Level
-* **Level 1**: Belajar Algoritma, Flowchart dasar, If-Else (Gerbang Keputusan), dan Array/List (Kotak Mainan).
-* **Level 2**: Belajar Looping (For & While) dengan simulasi ketukan pintu dan memasak sup.
-* **Level 3**: Belajar Functions (Kantong Ajaib) + **Projek Akhir** (Kalkulator Magic / Sistem Absensi).
+## 🛠️ Modul Pembelajaran
+* **Level 1**: Algoritma, Flowchart dasar, If-Else, dan Array/List.
+* **Level 2**: Looping (For & While) dengan simulasi dunia nyata.
+* **Level 3**: Functions (Built-in & User Defined) + **Pilihan Projek Akhir** (Kalkulator Magic / Sistem Absensi).
 
-## 🚀 Cara Menjalankan Program
-Pastikan kamu sudah menginstal Python di komputer. Buka terminal/cmd di dalam folder ini, lalu jalankan:
-
+## 🚀 Cara Menjalankan
+Buka terminal di dalam folder proyek ini, lalu eksekusi:
 ```bash
 python main.py
