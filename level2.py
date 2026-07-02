@@ -4,7 +4,7 @@ import time
 def materi_level_2():
     print("""
 ===================================================================
-📖 MATERI LEVEL 2: KULI BANGUNAN OTOMATIS (Looping: For & While)
+📖 LOGICLAB LEVEL 2: KULI BANGUNAN OTOMATIS (Looping: For & While)
 ===================================================================
 Looping itu menyuruh komputer melakukan hal yang sama berulang kali 
 sampai capek atau sampai targetnya selesai.
@@ -20,7 +20,7 @@ sampai capek atau sampai targetnya selesai.
 """)
 
 def simulator_level_2():
-    print("\n🎮 SIMULATOR LEVEL 2: MESIN PENGETUK PINTU & PEMASAK OTOMATIS")
+    print("\n🎮 LOGICLAB SIMULATOR 2: PENGETUK PINTU & PEMASAK OTOMATIS")
     
     print("\n--- Uji Coba FOR Loop (Ketuk 3 Kali) ---")
     for i in range(1, 4):
