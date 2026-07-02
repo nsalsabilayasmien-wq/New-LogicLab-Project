@@ -3,7 +3,7 @@
 def materi_level_3():
     print("""
 ===================================================================
-📖 MATERI LEVEL 3: KANTONG AJAIB DORAEMON (Functions)
+📖 LOGICLAB LEVEL 3: KANTONG AJAIB DORAEMON (Functions)
 ===================================================================
 Fungsi (Function) itu seperti tombol ajaib. Sekali kamu buat tombolnya, 
 kamu tinggal pencet kapan saja tanpa perlu merakit mesinnya lagi dari awal.
@@ -17,10 +17,8 @@ kamu tinggal pencet kapan saja tanpa perlu merakit mesinnya lagi dari awal.
 ===================================================================
 """)
 
-# --- USER DEFINED FUNCTIONS UNTUK PROJEK AKHIR ---
-
 def projek_kalkulator_magic():
-    print("\n🧙‍♂️ WELCOME TO MAGIC CALCULATOR 🧙‍♂️")
+    print("\n🧙‍♂️ LOGICLAB FINAL PROJECT: MAGIC CALCULATOR 🧙‍♂️")
     print("Kalkulator ini bisa menghitung sekaligus menebak sifat angkamu!")
     try:
         a = float(input("Masukkan angka pertama: "))
@@ -46,14 +44,14 @@ def projek_kalkulator_magic():
             else:
                 print("🔮 Ramalan: Angka yang rendah hati. Kamu orang yang hemat!")
     except ValueError:
-        print("❌ Masukkan angka yang valid, dong!")
+        print("❌ Masukkan angka yang valid!")
 
 def projek_sistem_absensi():
-    print("\n📝 WELCOME TO SISTEM ABSENSI SMART 📝")
+    print("\n📝 LOGICLAB FINAL PROJECT: SISTEM ABSENSI SMART 📝")
     daftar_hadir = []
     
     while True:
-        nama = input("Masukkan nama mahasiswa yang hadir (ketik 'selesai' untuk keluar): ").strip()
+        nama = input("Masukkan nama mahasiswa (ketik 'selesai' untuk keluar): ").strip()
         if nama.lower() == 'selesai':
             break
         if nama == "":
@@ -63,13 +61,12 @@ def projek_sistem_absensi():
         print(f"✅ {nama} berhasil diabsen.")
         
     print("\n=== DAFTAR HADIR KELAS HARI INI ===")
-    # Menggunakan built-in function len()
     print(f"Total Mahasiswa Hadir: {len(daftar_hadir)} orang")
     for urutan, mhs in enumerate(daftar_hadir, 1):
         print(f"{urutan}. {mhs}")
 
 def menu_projek_akhir():
-    print("\n🎓--- PROJEK AKHIR GRADUASI ---🎓")
+    print("\n🎓--- LOGICLAB GRADUASI ---🎓")
     print("Silahkan pilih salah satu projek untuk kamu selesaikan:")
     print("1. Kalkulator Magic")
     print("2. Sistem Absensi Smart")
@@ -80,7 +77,7 @@ def menu_projek_akhir():
     elif pilihan == "2":
         projek_sistem_absensi()
     else:
-        print("❌ Pilihan tidak ada, tapi karena kamu sudah belajar, kamu tetap lulus!")
+        print("❌ Pilihan tidak valid.")
 
 if __name__ == "__main__":
     materi_level_3()
